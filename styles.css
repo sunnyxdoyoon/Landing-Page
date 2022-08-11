@@ -61,7 +61,7 @@ a, a:hover, a:focus, a:active {
   padding-top:100px;
   padding-bottom:100px;
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
   color:white;
   background-color: #1F2937;
 }
@@ -187,7 +187,8 @@ a, a:hover, a:focus, a:active {
 .c4-box {
   display:flex;
   flex:1;
-  justify-content: space-between;
+  justify-content: center;
+  gap:100px;
   background-color: #3882F6;
   border-radius:5px;
   padding-left:100px;
