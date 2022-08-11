@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,11 +22,13 @@
       </div>    
 
 
-      <div class="right-links">
+      <div class="right-links-container">
             
+            <ul class="right-links">
             <li><a href="#">header link one</a></li>
             <li><a href="#">header link two</a></li>
             <li><a href="#">header link three</a></li>
+            </ul>
 
       </div>
 
@@ -34,35 +39,54 @@
     
       <div class="content-1-left">
         <div>
-        <p>This website is awesome</p>
+        <p class="c1-h1">This website is awesome</p>
         </div>
         <div>
-        <p> This website has some subtext that goes under the main title. It's smaller font and the color is lower contrast.</p> website 
+        <p class="c1-h2"> This website has some subtext that goes under the main title. It's smaller font and the color is lower contrast.</p>
         </div>
-
+        <div>
+        <button class="button-1">Sign up</button>
+        </div>
       </div>
+
+      <div class="c1-placeholder">this is a placeholder for an image</div>
 
     </div>
 
-    
-    <div class="content-2">
-
-      <div>
+    <div class="header-2"> 
+      <div class="c2-h1">
         Some random information.
       </div>
+    </div>
 
-      <div>
+    <div class="content-2">
 
-        <div class="image-placeholder"></div>
-        <div>this is some subtext under an illustration or image</div>
-        <div class="image-placeholder"></div>
-        <div>this is some subtext under an illustration or image</div>
-        <div class="image-placeholder"></div>
-        <div>this is some subtext under an illustration or image</div>
-        <div class="image-placeholder"></div>
-        <div>this is some subtext under an illustration or image</div>
+  
+
+      <div class="image-placeholder-main">
+
+        <div class="image-container">
+          <div class="image-placeholder"></div>
+          <div class="image-p">this is some subtext under an illustration or image</div>
+          </div>
+
+          <div class="image-container">
+            <div class="image-placeholder"></div>
+            <div class="image-p">this is some subtext under an illustration or image</div>
+            </div>
+
+            <div class="image-container">
+              <div class="image-placeholder"></div>
+              <div class="image-p">this is some subtext under an illustration or image</div>
+              </div>
+
+              <div class="image-container">
+                <div class="image-placeholder"></div>
+                <div class="image-p">this is some subtext under an illustration or image</div>
+                </div>
 
       </div>
+    </div>
 
       <div class="content-3">
        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filing up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
@@ -75,7 +99,7 @@
           <p>Call to Action! It's time!</p>
           <p>Sign up for our product by clicking that button right over there!</p>
         </div>
-        <div><button class="sign-up-button">Sign up</button></div>
+        <div><button class="sign-up-button-2">Sign up</button></div>
       </div>
 
       <div clas="footer">Copyright (C) The Odin Project 2022</div>
